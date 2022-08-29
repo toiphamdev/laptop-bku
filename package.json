@@ -2,7 +2,6 @@
   "name": "tiktok",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://toiphamdev.github.io/laptop-bku/",
   "dependencies": {
     "@atlaskit/pagination": "^14.1.8",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
@@ -39,15 +38,16 @@
     "redux-persist": "^6.0.0",
     "redux-state-sync": "^3.1.4",
     "redux-thunk": "^2.4.1",
+    "serve": "^14.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
-    "test": "react-app-rewired test",
-    "eject": "react-app-rewired eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
     "extends": [
