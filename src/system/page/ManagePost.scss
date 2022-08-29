@@ -1,0 +1,228 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+thead {
+    background-color: aquamarine;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.container-managerPost {
+    width: 100%;
+
+    margin-top: 100px;
+    min-height: 2500px;
+
+
+
+    .titleManager {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .managerTitleAndButotn {
+        display: flex;
+
+        align-items: left;
+        justify-content: space-between;
+
+        .title-left {
+            width: 50%;
+
+
+            .listTitlePost {
+                display: flex;
+
+                align-items: center;
+                margin-bottom: 50px;
+
+                margin-left: 50px;
+
+                .titlePost {
+                    color: black;
+                    font-size: 20px;
+                    padding-right: 20px;
+                    min-width: 230px;
+                }
+
+                .inputTitlePost {
+                    width: 200px;
+                    height: 50px;
+
+                }
+            }
+        }
+
+        .title-right {
+            width: 50%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            .container-select {
+                width: 500px;
+                height: 50px;
+                background-color: yellow;
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+
+
+    }
+
+
+
+}
+
+.saveChange {
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(16, 31, 247);
+    transition: all 0.3s linear;
+
+
+    &:hover {
+        transform: scale(1.2);
+        background-color: rgb(180, 17, 212);
+        cursor: pointer;
+    }
+}
+
+.createPost {
+    width: 80px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(16, 31, 247);
+    transition: all 0.3s linear;
+
+
+    &:hover {
+        transform: scale(1.2);
+        background-color: rgb(180, 17, 212);
+        cursor: pointer;
+    }
+
+}
+
+.creatPostItem {
+    width: 100%;
+    height: 100px;
+
+    margin-left: 50px;
+    padding: 30px 0px;
+}
+
+.table_data {
+    width: 96%;
+    height: 500px;
+    // background-color: red;
+    margin: 0 auto;
+
+    .title_table {
+        font-size: 25px;
+        padding-top: 15px;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 20px;
+        padding: 10px 0px;
+
+
+    }
+
+    .action {
+        font-size: 20px;
+
+        padding: 10px 0px;
+    }
+
+
+    .title_postMain {
+        width: 80%;
+        // background-color: red;
+        font-size: 18px;
+    }
+
+
+    .container_tools {
+        width: 20%;
+
+        text-align: center;
+
+        .fix {
+            color: black;
+            width: 90px;
+            height: 40px;
+            font-size: 15px;
+            font-weight: 500;
+            margin-right: 20px;
+            border-radius: 10px;
+            transition: all 0.1s linear;
+
+            &:hover {
+                transform: scale(1.1);
+                background-color: rgb(39, 241, 123);
+                color: black;
+                cursor: pointer;
+            }
+        }
+
+        .del {
+            color: black;
+            width: 90px;
+            height: 40px;
+            font-size: 15px;
+            font-weight: 500;
+            margin-right: 20px;
+            border-radius: 10px;
+
+            &:hover {
+                transform: scale(1.1);
+                background-color: red;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .Pagination_direction {
+        margin-top: 50px;
+        width: 100%;
+        height: 50px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: scale(1.2);
+
+    }
+}
+
+img {
+    width: 200px;
+    height: 100px;
+}

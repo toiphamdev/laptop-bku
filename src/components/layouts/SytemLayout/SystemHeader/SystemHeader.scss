@@ -1,0 +1,87 @@
+.headerSystem {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(38, 245, 183);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    border: 2px solid black;
+
+    .managerSystem {
+        min-width: 100px;
+        height: 40px;
+        // background-color: red;
+        font-size: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        padding-left: 12px;
+        // border: 2px solid black;
+        transition: all 0.3s linear;
+
+        // margin-left: 20px;
+        .managerSystemTile {}
+
+
+
+
+        a {
+            color: black;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s linear;
+            // background-color: black;
+            margin-left: 40px;
+            border: 2px solid black;
+            padding: 6px 20px;
+            border-radius: 10px;
+            background-color: #eee;
+            font-size: 15px;
+
+            &:hover {
+                color: white;
+                background-color: #eee;
+                transform: scale(1.2);
+                background-color: rgb(85, 96, 240);
+            }
+
+
+        }
+
+    }
+
+    .logOutSystem {
+        color: wheat;
+        min-width: 100px;
+        height: 40px;
+        background-color: green;
+        margin-right: 20px;
+        font-size: 20px;
+        border-radius: 10px;
+        transition: all 0.3s linear;
+
+        &:hover {
+            transform: scale(1.2);
+            background-color: red;
+            color: black;
+        }
+
+    }
+
+    .userSystem {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 50px;
+        border: 2px solid black;
+        padding: 5px;
+        background-color: #eee;
+    }
+}

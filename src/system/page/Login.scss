@@ -1,0 +1,115 @@
+.container_loggin {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: rgba(51, 51, 51, 0.817);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    .main_loggin {
+        width: 50%;
+        height: 300px;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 20px;
+        overflow: hidden;
+        background-color: #ece5da87;
+
+        .login_title {
+            font-family: "Paytone One";
+            color: #202020;
+            text-transform: uppercase;
+            letter-spacing: -2px;
+            display: block;
+            margin: 11px 0 17px 0;
+            font-size: 80px;
+            line-height: 80px;
+            color: #f1ebe5;
+            text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff;
+            letter-spacing: -4px;
+
+            text-align: center;
+        }
+
+        .login {
+            display: flex;
+            flex-direction: column;
+
+
+            width: 70%;
+            margin: 0 auto;
+
+            .loggin_email {
+                width: 100%;
+                // background-color: green;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-bottom: 20px;
+
+                .loggin_email-item {
+                    min-width: 70px;
+                    font-size: 15px;
+
+
+                }
+
+                .loggin_input-item {
+                    flex: 1;
+
+                }
+            }
+
+            .loggin_password {
+                width: 100%;
+                // background-color: green;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                .loggin_password-item {
+                    min-width: 70px;
+                    font-size: 15px;
+                }
+
+                .loggin_input-item {
+                    flex: 1;
+                }
+            }
+
+
+        }
+
+        .loggin_button {
+            width: 100%;
+
+
+            margin-top: 30px;
+            position: relative;
+            min-height: 30px;
+
+            .loggin_button-item {
+                position: absolute;
+                font-size: 15px;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                transition: all 0.3s linear;
+                height: 100%;
+
+
+                &:hover {
+                    background-color: blue;
+                    color: white;
+
+                }
+
+            }
+        }
+
+    }
+}
