@@ -2,7 +2,7 @@
   "name": "tiktok",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://toiphamdev.github.io/",
+  "homepage": "https://toiphamdev.github.io/laptop-bku/",
   "dependencies": {
     "@atlaskit/pagination": "^14.1.8",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
