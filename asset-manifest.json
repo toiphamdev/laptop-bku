@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/laptop-bku/static/css/main.ebf0dc5d.css",
+    "main.js": "/laptop-bku/static/js/main.526b9dc6.js",
+    "static/js/787.fe00223f.chunk.js": "/laptop-bku/static/js/787.fe00223f.chunk.js",
+    "static/media/LOGO_OFFICIAL.png": "/laptop-bku/static/media/LOGO_OFFICIAL.1e6126092217d43e39d0.png",
+    "index.html": "/laptop-bku/index.html",
+    "main.ebf0dc5d.css.map": "/laptop-bku/static/css/main.ebf0dc5d.css.map",
+    "main.526b9dc6.js.map": "/laptop-bku/static/js/main.526b9dc6.js.map",
+    "787.fe00223f.chunk.js.map": "/laptop-bku/static/js/787.fe00223f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebf0dc5d.css",
+    "static/js/main.526b9dc6.js"
+  ]
+}
